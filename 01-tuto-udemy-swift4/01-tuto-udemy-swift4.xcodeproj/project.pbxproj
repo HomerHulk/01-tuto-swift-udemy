@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF793BB01F43168000A8D125 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF793BAF1F43168000A8D125 /* AppDelegate.swift */; };
+		BF793BB21F43168000A8D125 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF793BB11F43168000A8D125 /* ViewController.swift */; };
+		BF793BB51F43168000A8D125 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF793BB31F43168000A8D125 /* Main.storyboard */; };
+		BF793BB81F43168000A8D125 /* _1_tuto_udemy_swift4.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BF793BB61F43168000A8D125 /* _1_tuto_udemy_swift4.xcdatamodeld */; };
+		BF793BBA1F43168000A8D125 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF793BB91F43168000A8D125 /* Assets.xcassets */; };
+		BF793BBD1F43168000A8D125 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF793BBB1F43168000A8D125 /* LaunchScreen.storyboard */; };
+		BF793BC81F43168000A8D125 /* _1_tuto_udemy_swift4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF793BC71F43168000A8D125 /* _1_tuto_udemy_swift4Tests.swift */; };
+		BF793BD31F43168000A8D125 /* _1_tuto_udemy_swift4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF793BD21F43168000A8D125 /* _1_tuto_udemy_swift4UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF793BC41F43168000A8D125 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF793BA41F43168000A8D125 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF793BAB1F43168000A8D125;
+			remoteInfo = "01-tuto-udemy-swift4";
+		};
+		BF793BCF1F43168000A8D125 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF793BA41F43168000A8D125 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF793BAB1F43168000A8D125;
+			remoteInfo = "01-tuto-udemy-swift4";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF793BAC1F43168000A8D125 /* 01-tuto-udemy-swift4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "01-tuto-udemy-swift4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF793BAF1F43168000A8D125 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BF793BB11F43168000A8D125 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BF793BB41F43168000A8D125 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF793BB71F43168000A8D125 /* _1_tuto_udemy_swift4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = _1_tuto_udemy_swift4.xcdatamodel; sourceTree = "<group>"; };
+		BF793BB91F43168000A8D125 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF793BBC1F43168000A8D125 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF793BBE1F43168000A8D125 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF793BC31F43168000A8D125 /* 01-tuto-udemy-swift4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "01-tuto-udemy-swift4Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF793BC71F43168000A8D125 /* _1_tuto_udemy_swift4Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _1_tuto_udemy_swift4Tests.swift; sourceTree = "<group>"; };
+		BF793BC91F43168000A8D125 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF793BCE1F43168000A8D125 /* 01-tuto-udemy-swift4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "01-tuto-udemy-swift4UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF793BD21F43168000A8D125 /* _1_tuto_udemy_swift4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _1_tuto_udemy_swift4UITests.swift; sourceTree = "<group>"; };
+		BF793BD41F43168000A8D125 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF793BA91F43168000A8D125 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF793BC01F43168000A8D125 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF793BCB1F43168000A8D125 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF793BA31F43168000A8D125 = {
+			isa = PBXGroup;
+			children = (
+				BF793BAE1F43168000A8D125 /* 01-tuto-udemy-swift4 */,
+				BF793BC61F43168000A8D125 /* 01-tuto-udemy-swift4Tests */,
+				BF793BD11F43168000A8D125 /* 01-tuto-udemy-swift4UITests */,
+				BF793BAD1F43168000A8D125 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF793BAD1F43168000A8D125 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF793BAC1F43168000A8D125 /* 01-tuto-udemy-swift4.app */,
+				BF793BC31F43168000A8D125 /* 01-tuto-udemy-swift4Tests.xctest */,
+				BF793BCE1F43168000A8D125 /* 01-tuto-udemy-swift4UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF793BAE1F43168000A8D125 /* 01-tuto-udemy-swift4 */ = {
+			isa = PBXGroup;
+			children = (
+				BF793BAF1F43168000A8D125 /* AppDelegate.swift */,
+				BF793BB11F43168000A8D125 /* ViewController.swift */,
+				BF793BB31F43168000A8D125 /* Main.storyboard */,
+				BF793BB91F43168000A8D125 /* Assets.xcassets */,
+				BF793BBB1F43168000A8D125 /* LaunchScreen.storyboard */,
+				BF793BBE1F43168000A8D125 /* Info.plist */,
+				BF793BB61F43168000A8D125 /* _1_tuto_udemy_swift4.xcdatamodeld */,
+			);
+			path = "01-tuto-udemy-swift4";
+			sourceTree = "<group>";
+		};
+		BF793BC61F43168000A8D125 /* 01-tuto-udemy-swift4Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BF793BC71F43168000A8D125 /* _1_tuto_udemy_swift4Tests.swift */,
+				BF793BC91F43168000A8D125 /* Info.plist */,
+			);
+			path = "01-tuto-udemy-swift4Tests";
+			sourceTree = "<group>";
+		};
+		BF793BD11F43168000A8D125 /* 01-tuto-udemy-swift4UITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF793BD21F43168000A8D125 /* _1_tuto_udemy_swift4UITests.swift */,
+				BF793BD41F43168000A8D125 /* Info.plist */,
+			);
+			path = "01-tuto-udemy-swift4UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF793BAB1F43168000A8D125 /* 01-tuto-udemy-swift4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF793BD71F43168000A8D125 /* Build configuration list for PBXNativeTarget "01-tuto-udemy-swift4" */;
+			buildPhases = (
+				BF793BA81F43168000A8D125 /* Sources */,
+				BF793BA91F43168000A8D125 /* Frameworks */,
+				BF793BAA1F43168000A8D125 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "01-tuto-udemy-swift4";
+			productName = "01-tuto-udemy-swift4";
+			productReference = BF793BAC1F43168000A8D125 /* 01-tuto-udemy-swift4.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF793BC21F43168000A8D125 /* 01-tuto-udemy-swift4Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF793BDA1F43168000A8D125 /* Build configuration list for PBXNativeTarget "01-tuto-udemy-swift4Tests" */;
+			buildPhases = (
+				BF793BBF1F43168000A8D125 /* Sources */,
+				BF793BC01F43168000A8D125 /* Frameworks */,
+				BF793BC11F43168000A8D125 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF793BC51F43168000A8D125 /* PBXTargetDependency */,
+			);
+			name = "01-tuto-udemy-swift4Tests";
+			productName = "01-tuto-udemy-swift4Tests";
+			productReference = BF793BC31F43168000A8D125 /* 01-tuto-udemy-swift4Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF793BCD1F43168000A8D125 /* 01-tuto-udemy-swift4UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF793BDD1F43168000A8D125 /* Build configuration list for PBXNativeTarget "01-tuto-udemy-swift4UITests" */;
+			buildPhases = (
+				BF793BCA1F43168000A8D125 /* Sources */,
+				BF793BCB1F43168000A8D125 /* Frameworks */,
+				BF793BCC1F43168000A8D125 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF793BD01F43168000A8D125 /* PBXTargetDependency */,
+			);
+			name = "01-tuto-udemy-swift4UITests";
+			productName = "01-tuto-udemy-swift4UITests";
+			productReference = BF793BCE1F43168000A8D125 /* 01-tuto-udemy-swift4UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF793BA41F43168000A8D125 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "VINCENT BOULANGER";
+				TargetAttributes = {
+					BF793BAB1F43168000A8D125 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 6KQ6387NFD;
+						ProvisioningStyle = Automatic;
+					};
+					BF793BC21F43168000A8D125 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 6KQ6387NFD;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BF793BAB1F43168000A8D125;
+					};
+					BF793BCD1F43168000A8D125 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 6KQ6387NFD;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BF793BAB1F43168000A8D125;
+					};
+				};
+			};
+			buildConfigurationList = BF793BA71F43168000A8D125 /* Build configuration list for PBXProject "01-tuto-udemy-swift4" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF793BA31F43168000A8D125;
+			productRefGroup = BF793BAD1F43168000A8D125 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF793BAB1F43168000A8D125 /* 01-tuto-udemy-swift4 */,
+				BF793BC21F43168000A8D125 /* 01-tuto-udemy-swift4Tests */,
+				BF793BCD1F43168000A8D125 /* 01-tuto-udemy-swift4UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF793BAA1F43168000A8D125 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF793BBD1F43168000A8D125 /* LaunchScreen.storyboard in Resources */,
+				BF793BBA1F43168000A8D125 /* Assets.xcassets in Resources */,
+				BF793BB51F43168000A8D125 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF793BC11F43168000A8D125 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF793BCC1F43168000A8D125 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF793BA81F43168000A8D125 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF793BB21F43168000A8D125 /* ViewController.swift in Sources */,
+				BF793BB01F43168000A8D125 /* AppDelegate.swift in Sources */,
+				BF793BB81F43168000A8D125 /* _1_tuto_udemy_swift4.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF793BBF1F43168000A8D125 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF793BC81F43168000A8D125 /* _1_tuto_udemy_swift4Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF793BCA1F43168000A8D125 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF793BD31F43168000A8D125 /* _1_tuto_udemy_swift4UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF793BC51F43168000A8D125 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF793BAB1F43168000A8D125 /* 01-tuto-udemy-swift4 */;
+			targetProxy = BF793BC41F43168000A8D125 /* PBXContainerItemProxy */;
+		};
+		BF793BD01F43168000A8D125 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF793BAB1F43168000A8D125 /* 01-tuto-udemy-swift4 */;
+			targetProxy = BF793BCF1F43168000A8D125 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF793BB31F43168000A8D125 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF793BB41F43168000A8D125 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF793BBB1F43168000A8D125 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF793BBC1F43168000A8D125 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF793BD51F43168000A8D125 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF793BD61F43168000A8D125 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF793BD81F43168000A8D125 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6KQ6387NFD;
+				INFOPLIST_FILE = "01-tuto-udemy-swift4/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com-laroutedesrhums.-1-tuto-udemy-swift4";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BF793BD91F43168000A8D125 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6KQ6387NFD;
+				INFOPLIST_FILE = "01-tuto-udemy-swift4/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com-laroutedesrhums.-1-tuto-udemy-swift4";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		BF793BDB1F43168000A8D125 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6KQ6387NFD;
+				INFOPLIST_FILE = "01-tuto-udemy-swift4Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com-laroutedesrhums.-1-tuto-udemy-swift4Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/01-tuto-udemy-swift4.app/01-tuto-udemy-swift4";
+			};
+			name = Debug;
+		};
+		BF793BDC1F43168000A8D125 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6KQ6387NFD;
+				INFOPLIST_FILE = "01-tuto-udemy-swift4Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com-laroutedesrhums.-1-tuto-udemy-swift4Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/01-tuto-udemy-swift4.app/01-tuto-udemy-swift4";
+			};
+			name = Release;
+		};
+		BF793BDE1F43168000A8D125 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6KQ6387NFD;
+				INFOPLIST_FILE = "01-tuto-udemy-swift4UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com-laroutedesrhums.-1-tuto-udemy-swift4UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "01-tuto-udemy-swift4";
+			};
+			name = Debug;
+		};
+		BF793BDF1F43168000A8D125 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6KQ6387NFD;
+				INFOPLIST_FILE = "01-tuto-udemy-swift4UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com-laroutedesrhums.-1-tuto-udemy-swift4UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "01-tuto-udemy-swift4";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF793BA71F43168000A8D125 /* Build configuration list for PBXProject "01-tuto-udemy-swift4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF793BD51F43168000A8D125 /* Debug */,
+				BF793BD61F43168000A8D125 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF793BD71F43168000A8D125 /* Build configuration list for PBXNativeTarget "01-tuto-udemy-swift4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF793BD81F43168000A8D125 /* Debug */,
+				BF793BD91F43168000A8D125 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BF793BDA1F43168000A8D125 /* Build configuration list for PBXNativeTarget "01-tuto-udemy-swift4Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF793BDB1F43168000A8D125 /* Debug */,
+				BF793BDC1F43168000A8D125 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BF793BDD1F43168000A8D125 /* Build configuration list for PBXNativeTarget "01-tuto-udemy-swift4UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF793BDE1F43168000A8D125 /* Debug */,
+				BF793BDF1F43168000A8D125 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BF793BB61F43168000A8D125 /* _1_tuto_udemy_swift4.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BF793BB71F43168000A8D125 /* _1_tuto_udemy_swift4.xcdatamodel */,
+			);
+			currentVersion = BF793BB71F43168000A8D125 /* _1_tuto_udemy_swift4.xcdatamodel */;
+			path = _1_tuto_udemy_swift4.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BF793BA41F43168000A8D125 /* Project object */;
+}
